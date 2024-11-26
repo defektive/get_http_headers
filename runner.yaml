@@ -1,10 +1,10 @@
 inputs:
-  - name: ip_address
-    prompt: ip_address
+  - name: url
+    prompt: url
     type: text
 
 launch:
   program: app.py
   args:
-    - '--ip_address'
-    - '${ip_address}'
+    - '--url'
+    - '${url}'
