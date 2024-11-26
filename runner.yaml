@@ -1,0 +1,10 @@
+inputs:
+  - name: ip_address
+    prompt: ip_address
+    type: text
+
+launch:
+  program: app.py
+  args:
+    - '--ip_address'
+    - '${ip_address}'
